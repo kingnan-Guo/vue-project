@@ -5,8 +5,16 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-Vue.config.productionTip = false
+import directives from '@/assets/js/directives.js'
 
+Vue.config.productionTip = false
+Vue.use(directives)
+// Vue.directive('size-ob', observeFunction)
+// Vue.directive('size-ob', {
+//   inserted (el, binding) {
+//     console.log('el', el, 'binding=', binding)
+//   }
+// })
 Vue.use(ElementUI)
 /* eslint-disable no-new */
 new Vue({
