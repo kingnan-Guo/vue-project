@@ -34,8 +34,11 @@ export default{
   // mounted (el, binding) {
   //   // 监视尺寸变化
   //   console.log('el', el, 'binding=', binding)
+  //   ob.observe(el)
+  //   map.set(el, binding.value)
   // },
   // unmounted () {
   //   console.log('unmounted')
+  //   ob.unobserve(el)
   // }
 }
