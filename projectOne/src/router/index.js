@@ -4,9 +4,8 @@ import HelloWorld from '@/components/HelloWorld'
 
 import Main from '@/pages/main/index'
 // import home from '@/pages/home/home'
-// import tensorflow from '@/pages/tensorflow/tensorflow'
 import testOne from '@/pages/testOne/index'
-
+import defer from '@/pages/defer/index'
 Vue.use(Router)
 
 export default new Router({
@@ -25,6 +24,11 @@ export default new Router({
           path: '/testOne',
           name: 'testOne',
           component: testOne
+        },
+        {
+          path: '/defer',
+          name: 'defer',
+          component: defer
         }
       ]
     }
