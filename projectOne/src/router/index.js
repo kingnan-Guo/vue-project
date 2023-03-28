@@ -6,6 +6,8 @@ import Main from '@/pages/main/index'
 // import home from '@/pages/home/home'
 import testOne from '@/pages/testOne/index'
 import defer from '@/pages/defer/index'
+import debounce from '@/pages/debounce/index'
+
 Vue.use(Router)
 
 export default new Router({
@@ -29,6 +31,11 @@ export default new Router({
           path: '/defer',
           name: 'defer',
           component: defer
+        },
+        {
+          path: '/debounce',
+          name: 'debounce',
+          component: debounce
         }
       ]
     }
