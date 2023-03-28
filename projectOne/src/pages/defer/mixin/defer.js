@@ -1,6 +1,6 @@
 /**
  * 使用延迟 装载  多div 渲染（defer）
- * @param {*} maxFrameCount 最大渲染树
+ * @param {*} maxFrameCount 最大渲染数
  * @return
  * JS 传输完成后  浏览器开始执行JS 构造页面
  * 但有可能一开始渲染组件过多，不仅JS执行的时间长，而且执行完后 浏览器要渲染的元素的过程中导致白屏
