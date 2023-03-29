@@ -29,7 +29,7 @@
 import {debounce} from './debounce.js'
 
 // others
-import { ref } from 'vue'
+// import { ref } from 'vue'
 
 export default {
   components: {},
@@ -59,7 +59,7 @@ export default {
     },
     othersHandleChange (value) {
       console.log('othersHandleChange ==', value)
-      console.log('ref ==', ref)
+      // console.log('ref ==', ref)
       console.log('this.$ref.myRef ==', this.$refs.myRef.value)
     }
   },
