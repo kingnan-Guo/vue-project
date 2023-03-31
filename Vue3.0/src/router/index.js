@@ -7,6 +7,10 @@ import boradCastReceive from '@/views/BoradCast/boradCastReceive.vue'
 
 import serviceWorkerSend from '@/views/serviceWorker/indexSend.vue'
 import serviceWorkerReceive from '@/views/serviceWorker/indexReceive.vue'
+
+import webWorkerSend from '@/views/webWorker/indexSend.vue'
+import webWorkerReceive from '@/views/webWorker/indexReceive.vue'
+
 const routes = [
   {
     //登录页面
@@ -37,8 +41,6 @@ const routes = [
       }
     ]
   },
-
-
   {
     //indexSend
     path: "/serviceWorkerSend",
@@ -51,7 +53,18 @@ const routes = [
     name: "serviceWorkerReceive",
     component: serviceWorkerReceive
   },
-
+  {
+    //indexSend
+    path: "/webWorkerSend",
+    name: "webWorkerSend",
+    component: webWorkerSend
+  },
+  {
+    //indexSend
+    path: "/webWorkerReceive",
+    name: "webWorkerReceive",
+    component: webWorkerReceive
+  },
 
 ];
 const router = createRouter({
