@@ -1,0 +1,12 @@
+{
+  "name": "custom-ice",
+  "version": "1.0.1",
+  "description": "",
+  "main": "custom-ice.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
